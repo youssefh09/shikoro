@@ -14,6 +14,12 @@
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
       <span>SHIKORO</span>
+
+      <button mat-icon-button routerLink="/cart" class="left-margin">
+        <mat-icon [matBadge]="itemsQuantity" [matBadgeHidden]="!itemsQuantity"
+          matBadgeColor="warn">shopping_cart</mat-icon>
+      </button>
+
     </mat-toolbar>
     <ng-content></ng-content>
   </mat-sidenav-content>

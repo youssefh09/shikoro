@@ -1,0 +1,21 @@
+table {
+    width: 100%;
+}
+
+.red-background {
+    background-color: #c2185b;
+}
+
+.margin {
+    margin: 15px;
+}
+
+.link {
+    color: #c2185b;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: red;
+    text-decoration: underline;
+}

@@ -1,0 +1,18 @@
+<mat-card class="inner-card">
+    <img src="https://media.ldlc.com/r1600/ld/products/00/05/92/88/LD0005928897_1_0005947205.jpg" mat-card-image
+        class="image" />
+    <mat-card-header class="title center">
+        <p>{{product.title}}</p>
+    </mat-card-header>
+    <mat-card-content class="content">
+        <p class="text-center">
+            {{product.description}}
+        </p>
+    </mat-card-content>
+    <mat-card-actions class="center">
+        <p class="title no-margin">{{product.price}}€</p>
+        <button (click)="onAddCart()" mat-raised-button color="primary">
+            <mat-icon class="text-gray-500">shopping_cart</mat-icon>
+        </button>
+    </mat-card-actions>
+</mat-card>

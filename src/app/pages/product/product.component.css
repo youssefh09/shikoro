@@ -1,0 +1,30 @@
+.inner-card {
+    background-color: white;
+    color: black;
+    padding: 0;
+    box-shadow: none;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.info-button {
+    width: 50%;
+    margin-left: 15px;
+}
+
+.no-margin {
+    margin: 0;
+}
